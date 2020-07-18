@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/carbon/config/common_full_phone.mk)
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
