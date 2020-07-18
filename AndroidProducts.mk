@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_rolex.mk
+    $(LOCAL_DIR)/carbon_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_rolex-user \
-    aosip_rolex-userdebug
+    carbon_rolex-user \
+    carbon_rolex-userdebug
