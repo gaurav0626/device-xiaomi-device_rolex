@@ -184,9 +184,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
-<<<<<<< HEAD
     wifi.interface=wlan0
-=======
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=500
 
@@ -204,4 +202,4 @@ ro.config.dha_lmk_scale=0.545
 ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
->>>>>>> 3c32712... rolex: Add props to improve battery backup
+
