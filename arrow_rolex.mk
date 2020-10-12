@@ -21,12 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common revengeos stuff
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
-
-#Make Build OFFICIAL
-REVENGEOS_BUILDTYPE := OFFICIAL
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -35,7 +32,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 4A
-PRODUCT_NAME := revengeos_rolex
+PRODUCT_NAME := arrow_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
@@ -46,4 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="rolex" \
     PRIVATE_BUILD_DESC="rolex-user 7.1.2 N2G47H V9.2.6.0.NCCMIEK release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/rolex/rolex:7.1.2/N2G47H/V9.2.6.0.NCCMIEK:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
